@@ -1,7 +1,7 @@
 -- © Optum 2018
 local resty_sha256 = require "resty.sha256"
 local str = require "resty.string"
-local singletons = require "kong.singletons"
+local singletons = require "kong.*"
 local pl_file = require "pl.file"
 local json = require "cjson"
 local openssl_digest = require "resty.openssl.digest"
