@@ -2,6 +2,7 @@
 local resty_sha256 = require "resty.sha256"
 local str = require "resty.string"
 local cache = require "kong.cache"
+local kong_warmup = require "kong.cache.warmup"
 local pl_file = require "pl.file"
 local json = require "cjson"
 local openssl_digest = require "resty.openssl.digest"
